@@ -9,7 +9,7 @@ RUN apt-get update && apt-get install -y \
   && rm -rf /var/lib/apt/lists/*
 
 RUN pip install poetry==1.4.2
-RUN pip install langchain==0.0.295
+RUN pip install langchain==0.0.340
 
 # Configuring poetry
 RUN poetry config virtualenvs.create false
